@@ -3,7 +3,7 @@
 
 ## Description
 API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. This application uses Express.js for routing, a MongoDB database, and the Mongoose ODM  
-Follow along with this [video](https://www.youtube.com/watch?v=b70DjRDo1Dc&feature=youtu.be)  
+ 
 ![mockup](https://raw.githubusercontent.com/Kaynalem/social-network-api/master/utils/mockup.PNG)
 ## Table of Contents
 * [Demo](#demo)
@@ -15,7 +15,8 @@ Follow along with this [video](https://www.youtube.com/watch?v=b70DjRDo1Dc&featu
 * [Contributing](#contributing)
 * [Questions](#questions)
 ## Demo
-  ![demo](https://raw.githubusercontent.com/Kaynalem/social-network-api/master/utils/demo.gif)  
+Follow along with this [video](https://www.youtube.com/watch?v=b70DjRDo1Dc&feature=youtu.be)  
+![demo](https://raw.githubusercontent.com/Kaynalem/social-network-api/master/utils/demo.gif)  
 ## User Story
 
 ```
