@@ -9,11 +9,10 @@ const {
     addReaction,
     deleteReaction
 } = require('../../controllers/thought-controller');
-const { route } = require('.');
 
 // GET all thoughts
 // /api/thoughts
-route.route('/').get(getAllThoughts),
+router.route('/').get(getAllThoughts),
 
 // POST to create a new thought
 // /api/thoughts/<userId>
