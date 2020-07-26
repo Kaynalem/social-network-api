@@ -12,10 +12,8 @@ const UserSchema = new Schema(
             type: String,
             required: 'You need to provide an email address!',
             unique: true,
-            validate: {
-                validator: () => Promise.resolve(false),
-                message: 'Email validation failed'
-            }
+            // use regex to validate email address
+            match: [/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/]
         },
         thoughts: [
         {
@@ -41,15 +39,6 @@ const UserSchema = new Schema(
 
 // create the User model using the UserSchema
 const User = model('User', UserSchema);
-
-//Mongoose email validation 
-const user = new User();
-
-user.email = 'test@test.co';
-user.validate().catch(error => {
-    assert.ok(error);
-    assert.equal(error.errors['email'].message, 'Email validation failed');
-});
 
 // get total count of friends on retrieval
 UserSchema.virtual('friendCount').get(function() {
