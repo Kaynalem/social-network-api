@@ -6,6 +6,7 @@ API for a social network web application where users can share their thoughts, r
 Follow along with this [video](https://www.youtube.com/watch?v=b70DjRDo1Dc&feature=youtu.be)  
 ![mockup](https://raw.githubusercontent.com/Kaynalem/social-network-api/master/utils/mockup.PNG)
 ## Table of Contents
+* [Demo](#demo)
 * [User Story](#user-story)
 * [Acceptance Criteria](#acceptance-criteria)
 * [Installation](#installation)
@@ -13,6 +14,8 @@ Follow along with this [video](https://www.youtube.com/watch?v=b70DjRDo1Dc&featu
 * [License](#license)
 * [Contributing](#contributing)
 * [Questions](#questions)
+## Demo
+  ![demo](https://raw.githubusercontent.com/Kaynalem/social-network-api/master/utils/demo.gif)  
 ## User Story
 
 ```
