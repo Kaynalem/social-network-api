@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 ## Description
-Back end built for an e-commerce site using  working Express.js API and configuring it to use Sequelize to interact with a MySQL database.  
+API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. This application uses Express.js for routing, a MongoDB database, and the Mongoose ODM  
 Follow along with this [video](https://www.youtube.com/watch?v=b70DjRDo1Dc&feature=youtu.be)  
 ![mockup](https://raw.githubusercontent.com/Kaynalem/social-network-api/master/utils/mockup.PNG)
 ## Table of Contents
