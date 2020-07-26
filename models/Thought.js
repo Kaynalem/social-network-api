@@ -32,7 +32,7 @@ const reactionSchema = new Schema(
 );
 const ThoughtSchema = new Schema(
     {
-            thoughtText: {
+        thoughtText: {
             type: String,
             required: true,
             // between 1 and 280 characters
