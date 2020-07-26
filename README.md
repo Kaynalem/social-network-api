@@ -3,7 +3,7 @@
 
 ## Description
 Back end built for an e-commerce site using  working Express.js API and configuring it to use Sequelize to interact with a MySQL database.  
-Follow along with this [video](https://github.com/Kaynalem/social-network-api/blob/master/utils/demo.mp4)  
+Follow along with this [video](https://www.youtube.com/watch?v=b70DjRDo1Dc&feature=youtu.be)  
 ![mockup](https://raw.githubusercontent.com/Kaynalem/social-network-api/master/utils/mockup.PNG)
 ## Table of Contents
 * [User Story](#user-story)
